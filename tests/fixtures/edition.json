@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "editionId": "2026-10-30",
+  "generatedAt": "2026-10-30T20:55:47Z",
+  "windowStart": "2026-10-29T20:55:47Z",
+  "windowEnd": "2026-10-30T20:55:47Z",
+  "timezone": "Europe/Stockholm",
+  "status": "partial",
+  "editorialNote": "Syntetisk testdata, aldrig en publicerad nyhetsutgåva.",
+  "stories": [
+    {
+      "id": "test-story-0",
+      "category": "world",
+      "title": "Testfall, inte en nyhet",
+      "summary": "Testsammanfattning.",
+      "whyItMatters": "Test av redaktionellt fält.",
+      "details": [
+        "Test av fördjupning."
+      ],
+      "publishedAt": "2026-10-30T12:00:00Z",
+      "eventDate": "2026-10-30",
+      "verifiedAt": "2026-10-30T20:00:00Z",
+      "confidence": "medium",
+      "kind": "news",
+      "preprint": false,
+      "sources": [
+        {
+          "name": "Exempelkälla",
+          "url": "https://example.com/test-0",
+          "publishedAt": "2026-10-30T12:00:00Z"
+        }
+      ],
+      "caveats": [
+        "Test av osäkerhet."
+      ]
+    },
+    {
+      "id": "test-story-1",
+      "category": "world",
+      "title": "Testfall, inte en nyhet",
+      "summary": "Testsammanfattning.",
+      "whyItMatters": "Test av redaktionellt fält.",
+      "details": [
+        "Test av fördjupning."
+      ],
+      "publishedAt": null,
+      "eventDate": "2026-10-30",
+      "verifiedAt": "2026-10-30T20:00:00Z",
+      "confidence": "medium",
+      "kind": "news",
+      "preprint": false,
+      "sources": [
+        {
+          "name": "Exempelkälla",
+          "url": "https://example.com/test-1",
+          "publishedAt": null,
+          "publishedDate": "2026-10-30"
+        }
+      ],
+      "caveats": [
+        "Test av osäkerhet."
+      ],
+      "publishedDate": "2026-10-30"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="sv">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="En lugn, källkritisk morgonöversikt över världen, vetenskapen och AI. Läs sammanhanget och gå vidare till originalkällorna.">
+  <meta name="theme-color" content="#123e3a">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'; frame-src 'none'">
+  <title>Morgonbrief — världen, vetenskapen & AI</title>
+  <link rel="icon" href="assets/sun.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/style.css">
+  <script type="module" src="assets/app.mjs"></script>
+</head>
+<body>
+  <a class="skip" href="#news">Hoppa till nyheterna</a>
+  <header class="masthead wrap">
+    <a class="brand" href="./" aria-label="Morgonbrief, startsida"><img class="sun" src="assets/sun.svg" alt="" width="38" height="38">Morgonbrief<span class="brand-dot">.</span></a>
+    <div class="masthead-right"><span class="edition-date" id="edition-date">En källkritisk morgonöversikt</span><button class="text-button" id="about-button" aria-haspopup="dialog">Om urvalet <span aria-hidden="true">→</span></button></div>
+  </header>
+  <main>
+    <section class="intro wrap" aria-labelledby="intro-title">
+      <div class="intro-copy"><p class="eyebrow">ETT LITET URVAL. ETT STÖRRE PERSPEKTIV.</p><h1 id="intro-title">Världen,<br>i lugn och ro<span>.</span></h1><p class="intro-description">Det viktiga från världen, vetenskapen och AI.<br class="desktop-break"> Kort först. Sammanhang när du vill.</p></div>
+      <aside class="edition-panel" aria-label="Utgåvans aktualitet"><span class="panel-orbit" aria-hidden="true">◒</span><p class="eyebrow">SENASTE UTGÅVAN</p><p id="edition-label" class="edition-label">Läser in översikten …</p><p id="window-label" class="window-label">Urvalet baseras på källornas publiceringstid.</p><p id="freshness" class="freshness" role="status">Kontrollerar aktualitet</p><p class="schedule-label">Mål: en ny morgonbrief kl. 06.00<br>svensk tid · datum visas alltid öppet</p></aside>
+    </section>
+    <section class="brief wrap" aria-labelledby="news-title" id="news">
+      <div class="section-heading"><div><p class="eyebrow">ÖVERBLICK & FÖRDJUPNING</p><h2 id="news-title">Ditt nyhetsurval</h2></div><p id="story-count" class="count" aria-live="polite"></p></div>
+      <div class="toolbar"><div class="filters" role="group" aria-label="Filtrera på ämne"><button class="filter active" data-category="all" aria-pressed="true">Alla</button><button class="filter" data-category="world" aria-pressed="false">Världen</button><button class="filter" data-category="science" aria-pressed="false">Vetenskap</button><button class="filter" data-category="ai" aria-pressed="false">AI</button><button class="filter" data-category="other" aria-pressed="false">Perspektiv</button></div><label class="search"><span aria-hidden="true">⌕</span><span class="sr-only">Sök i nyhetsurvalet</span><input id="search" type="search" placeholder="Sök i urvalet" maxlength="160"></label></div>
+      <div id="editorial-note" class="editorial-note" hidden></div>
+      <div id="stories" class="story-grid" aria-busy="true"></div>
+      <div id="empty-state" class="empty-state" hidden><span class="empty-symbol" aria-hidden="true">◎</span><h3 id="empty-title">Vi inväntar verifierade nyheter.</h3><p id="empty-description">Inget publiceras som färskt utan en kontrollerad källa och publiceringstid.</p><button class="secondary-button" id="reset-filters" hidden>Visa alla nyheter</button></div>
+      <div id="error-state" class="error-state" role="alert" hidden><h3>Översikten kunde inte läsas in.</h3><p id="error-message">Försök igen om en stund. En misslyckad uppdatering ska inte ersätta den senaste kontrollerade utgåvan.</p><button class="secondary-button" id="reload">Försök igen</button></div>
+      <noscript><div class="editorial-note">JavaScript behövs för filtrering och läsrutor. Källorna finns även i <a href="data/latest.json">utgåvans öppna data</a>.</div><!-- STATIC_EDITION --></noscript>
+    </section>
+    <section class="principles wrap" aria-label="Redaktionella principer"><div><span>01</span><h3>Källan är ett klick bort.</h3><p>Egna sammanfattningar, tydliga länkar och datum. Aldrig kopierade fulltexter.</p></div><div><span>02</span><h3>Osäkerhet ska synas.</h3><p>Fakta, analys och preliminära forskningsresultat hålls isär.</p></div><div><span>03</span><h3>Ingen konstgjord färskhet.</h3><p>Om en utgåva uteblir ligger den tidigare kvar, med sin riktiga tid.</p></div></section>
+  </main>
+  <footer class="footer wrap"><p class="footer-brand">Morgonbrief<span>.</span></p><p>En öppen morgonöversikt. Inga annonser. Ingen spårning.</p><a href="https://github.com/hktcr/morgonbrief" target="_blank" rel="noopener noreferrer">Kod & publicerade utgåvor →</a></footer>
+  <dialog id="reader" class="reader" aria-labelledby="reader-title"><div class="reader-top"><span class="reader-brand">Morgonbrief / läsläge</span><div class="reader-controls"><button id="font-size" class="icon-button" aria-label="Växla större text" aria-pressed="false">Aa</button><button id="close-reader" class="icon-button close-button" aria-label="Stäng läsrutan">×</button></div></div><article id="reader-article" class="reader-article"><p class="eyebrow" id="reader-category"></p><h2 id="reader-title" tabindex="-1"></h2><p id="reader-meta" class="reader-meta"></p><div id="reader-body"></div></article><nav id="reader-nav" class="reader-nav" aria-label="Bläddra mellan nyheter"><button id="previous-story" class="secondary-button">← Föregående</button><span id="reader-position"></span><button id="next-story" class="secondary-button">Nästa →</button></nav></dialog>
+</body>
+</html>

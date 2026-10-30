@@ -1,0 +1,192 @@
+{
+  "schemaVersion": 1,
+  "editionId": "2026-10-30",
+  "generatedAt": "2026-10-30T20:55:47Z",
+  "windowStart": "2026-10-29T20:55:47Z",
+  "windowEnd": "2026-10-30T20:55:47Z",
+  "timezone": "Europe/Stockholm",
+  "status": "partial",
+  "editorialNote": "Första utgåvan är ett kvällssammanställt urval, inte en redan genomförd morgonleverans. Tre nyheter har tidsstämplade källor inom det angivna dygnet. AI- och forskningsartiklarna är daterade 30 oktober men saknar klockslag och tidszon; deras exakta placering inom 24-timmarsfönstret kan därför inte bekräftas. De märks separat som datumkontrollerade. Fördjupningarna är egna korta sammanfattningar, inte återpublicerade originalartiklar.",
+  "stories": [
+    {
+      "id": "oleshky-evacuation-2026-10-30",
+      "category": "world",
+      "title": "Evakuering inledd från ryskockuperade Oleshky",
+      "summary": "Invånare började lämna Oleshky under en lokal vapenvila mellan Ryssland och Ukraina. Hjälpsändningar nådde samtidigt den hårt drabbade staden.",
+      "whyItMatters": "Operationen är ett konkret exempel på humanitärt samarbete under kriget, men innebär inte en allmän vapenvila.",
+      "details": [
+        "Reuters rapporterar att evakueringar började fredagen den 30 oktober. Både ryska och ukrainska företrädare uppgav att invånare kunde lämna Oleshky; hjälpsändningar innehöll bland annat mat och medicinska förnödenheter.",
+        "Insatsen genomfördes under en lokal vapenvila efter minröjning. Staden ligger vid Dnipro mittemot Cherson och har varit under rysk kontroll sedan den fullskaliga invasionens första dagar 2022.",
+        "Samtidigt fortsatte anfall på andra håll. Reuters kunde ännu inte ange hur många som hade evakuerats eller hur många som valt att stanna. Det är därför för tidigt att bedöma operationens omfattning."
+      ],
+      "publishedAt": "2026-10-30T11:00:00Z",
+      "eventDate": "2026-10-30",
+      "verifiedAt": "2026-10-30T20:51:58Z",
+      "confidence": "high",
+      "kind": "news",
+      "preprint": false,
+      "sources": [
+        {
+          "name": "Reuters / ThePrint — Dan Peleschuk",
+          "url": "https://theprint.in/world/russia-and-ukraine-say-oleshky-aid-operation-and-evacuations-under-way/3086157/",
+          "publishedAt": "2026-10-30T11:00:00Z"
+        }
+      ],
+      "caveats": [
+        "Antal evakuerade var inte fastställt i den lästa rapporten. Källans tid är ThePrints publicering av Reuters: 16.30 IST, motsvarande 11.00 UTC."
+      ]
+    },
+    {
+      "id": "qatar-iran-talks-2026-10-30",
+      "category": "world",
+      "title": "Qatar uppges återuppta medling i Teheran",
+      "summary": "Qatars medlare återvände till Teheran för samtal om ett avtal mellan USA och Iran, enligt en förhandlingsinsatt källa till Reuters.",
+      "whyItMatters": "Medlingen gäller en väg bort från kriget, men parterna är fortfarande oense om förhandlingarnas grundvillkor.",
+      "details": [
+        "Reuters uppger att besöket ägde rum fredagen den 30 oktober. En person som informerats om samtalen säger att medlingen har samordnats med USA.",
+        "Enligt rapporten vill Washington ta upp kärntekniska frågor från början. Teheran kräver i stället att USA först häver hamnblockaden och sanktionerna mot oljeexport.",
+        "Ett tidigare qatariskt förslag hade avvisats av en högt uppsatt iransk företrädare. Det nya besöket är därför ett diplomatiskt steg, inte belägg för att ett fredsavtal eller en vapenvila har nåtts."
+      ],
+      "publishedAt": "2026-10-30T07:15:00Z",
+      "eventDate": "2026-10-30",
+      "verifiedAt": "2026-10-30T20:55:10Z",
+      "confidence": "medium",
+      "kind": "news",
+      "preprint": false,
+      "sources": [
+        {
+          "name": "Reuters / Awani International",
+          "url": "https://international.astroawani.com/global-news/qatari-mediators-return-tehran-push-us-iran-deal-official-says",
+          "publishedAt": "2026-10-30T07:15:00Z"
+        }
+      ],
+      "caveats": [
+        "Uppgiften om medlarbesöket bygger på en anonym, förhandlingsinsatt källa till Reuters. Källans tid är återpubliceringen 15.15 MYT, motsvarande 07.15 UTC."
+      ]
+    },
+    {
+      "id": "novaya-gazeta-closure-2026-10-30",
+      "category": "world",
+      "title": "Novaja Gazeta meddelar att Moskvatidningen läggs ned",
+      "summary": "Den oberoende ryska tidningen uppger att myndighetspress tvingar den att avsluta verksamheten. Nedstängningen av servrarna planeras till den 9 november.",
+      "whyItMatters": "Beskedet gäller en långvarig institution för oberoende journalistik i Ryssland och möjligheten att granska makten inifrån landet.",
+      "details": [
+        "Novaja Gazeta, grundad 1993, meddelade den 30 oktober att verksamheten ska upphöra. Enligt redaktionens besked ska kontoret lämnas och servrarna stängas den 9 november.",
+        "Redaktionen tillskriver beslutet påtryckningar från ryska myndigheter och säkerhetstjänster. Det är redaktionens egen beskrivning av orsaken, återgiven av Novaya Gazeta Europe.",
+        "Nedläggningsbeskedet gäller den Moskva-baserade tidningen. Novaya Gazeta Europe är ett separat projekt som personal som lämnat Ryssland startade i Lettland efter invasionen 2022; de två ska inte sammanblandas."
+      ],
+      "publishedAt": "2026-10-30T09:13:00Z",
+      "eventDate": "2026-10-30",
+      "verifiedAt": "2026-10-30T20:53:13Z",
+      "confidence": "high",
+      "kind": "news",
+      "preprint": false,
+      "sources": [
+        {
+          "name": "Novaya Gazeta Europe — rapport om redaktionens besked",
+          "url": "https://novayagazeta.eu/amp/en/articles/2026/10/30/they-killed-us-novaya-gazeta-announces-closure-after-more-than-30-years-en-news",
+          "publishedAt": "2026-10-30T09:13:00Z"
+        }
+      ],
+      "caveats": [
+        "Nyheten är beskedet den 30 oktober; den planerade nedstängningen den 9 november har ännu inte inträffat. Orsaksbeskrivningen är attribuerad till redaktionen."
+      ]
+    },
+    {
+      "id": "rosalind-6-research-2026-10-30",
+      "category": "ai",
+      "title": "OpenAI presenterar Rosalind-6 med kontrollerad forskartillgång",
+      "summary": "OpenAI beskriver en biologiinriktad modell för kvalificerade forskare och organisationer. Tillgången föregås av granskning av användning, säkerhet och styrning.",
+      "whyItMatters": "Nyheten visar hur mer kapabel AI för biologiforskning kopplas till särskilda tillträdeskrav och riskbedömningar.",
+      "details": [
+        "I en systemrapport daterad 30 oktober presenterar OpenAI GPT-Rosalind-6 Research för bland annat biologisk forskning och läkemedelsutveckling. Modellen erbjuds genom kontrollerad tillgång, inte som en obegränsat öppen tjänst.",
+        "Enligt företaget använder modellen samma vikter som GPT-6 Astra. OpenAI uppger att man inte har lagt till träningsdata eller genomfört ytterligare efterträning för denna version.",
+        "OpenAI behandlar modellens biologiska och kemiska kapacitet som nivån High i sitt eget säkerhetsramverk. Det är företagets bedömning och utvärdering, inte ett oberoende bevis på forskningsnytta eller säkerhet i alla användningar."
+      ],
+      "publishedAt": null,
+      "publishedDate": "2026-10-30",
+      "eventDate": "2026-10-30",
+      "verifiedAt": "2026-10-30T20:52:27Z",
+      "confidence": "high",
+      "kind": "news",
+      "preprint": false,
+      "sources": [
+        {
+          "name": "OpenAI — GPT-Rosalind-6 System Card Addendum",
+          "url": "https://deploymentsafety.openai.com/gpt-rosalind-6",
+          "publishedAt": null,
+          "publishedDate": "2026-10-30"
+        }
+      ],
+      "caveats": [
+        "Källan är daterad 30 oktober 2026 men saknar klockslag och tidszon. Exakt placering inom 24-timmarsfönstret kan inte bekräftas.",
+        "Företagets egen systemrapport, inte en oberoende sakkunniggranskad studie."
+      ]
+    },
+    {
+      "id": "malaria-invasion-2026-10-30",
+      "category": "science",
+      "title": "Kombinerade ingrepp blottar svag punkt hos malariaparasiten",
+      "summary": "En laboratoriestudie visar att vissa par av proteiner är svåra för malariaparasiten att ersätta när den tar sig in i röda blodkroppar.",
+      "whyItMatters": "Resultatet ger ett mer precist underlag för forskning om behandlingar som angriper flera delar av parasitens inträdesmekanism samtidigt.",
+      "details": [
+        "Forskare har undersökt hur proteiner i två familjer hjälper Plasmodium falciparum att infektera röda blodkroppar. Enskilda ingrepp kan kompenseras av andra proteiner.",
+        "När PfEBA175 slogs ut tillsammans med antingen PfRh2b eller PfRh4 minskade parasiternas förökning tydligt i laboratoriet. Andra kombinationer hade inte samma effekt.",
+        "Detta är grundforskning, inte en testad behandling. Studien visar möjliga angreppspunkter men inte att ett läkemedel är effektivt eller säkert för människor."
+      ],
+      "publishedAt": null,
+      "eventDate": null,
+      "verifiedAt": "2026-10-30T20:55:38Z",
+      "confidence": "high",
+      "kind": "research",
+      "preprint": false,
+      "sources": [
+        {
+          "name": "Nature Communications — Silvester med flera",
+          "url": "https://www.nature.com/articles/s41467-026-78985-w",
+          "publishedAt": null,
+          "publishedDate": "2026-10-30"
+        }
+      ],
+      "caveats": [
+        "Publicerad 30 oktober 2026; klockslag och tidszon saknas. Exakt placering inom 24-timmarsfönstret kan inte bekräftas.",
+        "Sakkunniggranskad, accepterad artikel i tidig publiceringsversion; inte preprint.",
+        "Resultaten gäller laboratorieförsök.",
+        "Abstrakt och publiceringsmetadata lästa; full metod- och dataanalys har inte genomförts."
+      ],
+      "publishedDate": "2026-10-30"
+    },
+    {
+      "id": "ute2-superconductivity-2026-10-30",
+      "category": "science",
+      "title": "Ultraljud hittar saknad fasgräns i ovanlig supraledare",
+      "summary": "Ultraljudsmätningar avslöjar en tidigare dold fasgräns i materialet UTe₂ och ger stöd för att två supraledande ordningar kan samexistera.",
+      "whyItMatters": "Studien förbättrar den grundläggande förståelsen av ett material som undersöks som möjlig topologisk supraledare.",
+      "details": [
+        "Tidigare kartor över UTe₂:s tillstånd under olika tryck och temperaturer tycktes innehålla en mötespunkt som stred mot termodynamiken.",
+        "Forskarna fann en ytterligare gräns genom förändringar i ljudhastigheten. Resultaten pekar på en punkt där fyra faser möts och på konkurrens mellan två supraledande ordningar.",
+        "Arbetet är ett grundforskningsresultat, inte en färdig teknisk tillämpning. Benämningen möjlig topologisk supraledare ska inte läsas som att studien ensam bevisar den egenskapen."
+      ],
+      "publishedAt": null,
+      "eventDate": null,
+      "verifiedAt": "2026-10-30T20:55:38Z",
+      "confidence": "medium",
+      "kind": "research",
+      "preprint": false,
+      "sources": [
+        {
+          "name": "Nature Physics — Kamat med flera",
+          "url": "https://www.nature.com/articles/s41567-026-03504-z",
+          "publishedAt": null,
+          "publishedDate": "2026-10-30"
+        }
+      ],
+      "caveats": [
+        "Publicerad 30 oktober 2026; klockslag och tidszon saknas. Exakt placering inom 24-timmarsfönstret kan inte bekräftas.",
+        "Sakkunniggranskad artikel, inte preprint.",
+        "Sammanfattning, metadata och utökade figurtexter kunde läsas; fulltext kräver abonnemang."
+      ],
+      "publishedDate": "2026-10-30"
+    }
+  ]
+}

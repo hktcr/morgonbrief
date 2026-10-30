@@ -1,0 +1,14 @@
+{
+  "name": "morgonbrief",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Källkritisk svensk morgonöversikt på GitHub Pages",
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "validate": "node scripts/validate.mjs data/latest.json",
+    "build": "node scripts/build.mjs",
+    "check": "npm test && npm run validate && npm run build"
+  },
+  "engines": { "node": ">=22" }
+}

@@ -1,0 +1,11 @@
+import {readFile,writeFile,mkdir,rm,cp} from 'node:fs/promises';
+import {createHash} from 'node:crypto';
+import {validateEdition} from '../assets/model.mjs';
+const data=JSON.parse(await readFile('data/latest.json','utf8'));const errors=validateEdition(data);if(errors.length)throw new Error(errors.join('\n'));
+await rm('dist',{recursive:true,force:true});await mkdir('dist',{recursive:true});
+for(const path of ['assets','data','archive'])await cp(path,`dist/${path}`,{recursive:true});
+const escape=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const fallback=`<p>Utgåva ${escape(data.editionId)}. ${escape(data.editorialNote)}</p>`+data.stories.map(s=>`<article class="fallback-card"><h3>${escape(s.title)}</h3><p>${escape(s.summary)}</p><p>${s.sources.map(source=>`<a href="${escape(source.url)}" rel="noopener noreferrer">${escape(source.name)}</a>`).join(' · ')}</p></article>`).join('');
+await writeFile('dist/index.html',(await readFile('index.html','utf8')).replace('<!-- STATIC_EDITION -->',fallback));await writeFile('dist/.nojekyll','');
+const files=['index.html','assets/app.mjs','assets/model.mjs','assets/style.css','assets/sun.svg','data/latest.json'];const manifest={algorithm:'sha256',files:{}};for(const file of files)manifest.files[file]=createHash('sha256').update(await readFile(`dist/${file}`)).digest('hex');
+await writeFile('dist/manifest.json',JSON.stringify(manifest,null,2)+'\n');console.log(`Built ${data.editionId}; manifest contains ${files.length} SHA-256 file digests.`);
