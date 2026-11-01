@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "editionId": "2026-11-01",
+  "generatedAt": "2026-11-01T07:56:15Z",
+  "windowStart": "2026-10-31T07:46:27Z",
+  "windowEnd": "2026-11-01T07:46:27Z",
+  "timezone": "Europe/Stockholm",
+  "status": "partial",
+  "editorialNote": "Utgåvan sammanställdes efter morgonens mål kl. 06 och innehåller bara en kontrollerad AI-nyhet. Andra kandidater utelämnades när källåtkomsten eller tidskontrollen inte höll. Ingen forskningsartikel kvalificerade sig i den avgränsade vetenskapssökningen. Detta är inte en heltäckande omvärldsrapport och betyder inte att andra nyheter saknas.",
+  "stories": [
+    {
+      "id": "samsung-altman-leadership-ai-2026-10-31",
+      "category": "ai",
+      "title": "Samsung samlar ledningen kring AI med Sam Altman",
+      "summary": "Sam Altman deltog i ett seminarium med omkring 50 Samsungchefer om AI i verksamheten, rapporterar Yonhap med hänvisning till Samsung.",
+      "whyItMatters": "Nyheten handlar om hur företagsledningar förbereder organisationen för AI, snarare än om en ny modell eller ett nytt avtal.",
+      "details": [
+        "Seminariet hölls den 31 oktober i Yongin, söder om Seoul. Deltagarna kom från bland annat Samsungs teknik-, finans- och bioverksamheter.",
+        "Enligt Samsung diskuterades hur AI kan förändra företags beslut och arbetssätt samt vilka förmågor ledare behöver.",
+        "Rapporten beskriver ett ledningsseminarium. Den redovisar inga uppmätta produktivitetsvinster och fastställer inte något nytt kommersiellt avtal."
+      ],
+      "publishedAt": "2026-10-31T08:34:26Z",
+      "eventDate": "2026-10-31",
+      "verifiedAt": "2026-11-01T07:53:17Z",
+      "confidence": "medium",
+      "kind": "news",
+      "preprint": false,
+      "sources": [
+        {
+          "name": "Yonhap News Agency",
+          "url": "https://en.yna.co.kr/view/AEN20261031002651315",
+          "publishedAt": "2026-10-31T08:34:26Z"
+        }
+      ],
+      "caveats": [
+        "Hela Yonhaprapporten har lästs. Uppgifterna om seminariet tillskrivs Samsung; det är inte ett oberoende test av AI:s effekter.",
+        "Originalsidans tidsmetadata anger 17.34.26 med UTC+09.00, vilket motsvarar 08.34.26 UTC."
+      ]
+    }
+  ]
+}

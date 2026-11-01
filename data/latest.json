@@ -1,69 +1,40 @@
 {
   "schemaVersion": 1,
-  "editionId": "2026-10-31",
-  "generatedAt": "2026-10-31T08:19:25Z",
-  "windowStart": "2026-10-30T08:12:25Z",
-  "windowEnd": "2026-10-31T08:12:25Z",
+  "editionId": "2026-11-01",
+  "generatedAt": "2026-11-01T07:56:15Z",
+  "windowStart": "2026-10-31T07:46:27Z",
+  "windowEnd": "2026-11-01T07:46:27Z",
   "timezone": "Europe/Stockholm",
   "status": "partial",
-  "editorialNote": "Dagens utgåva sammanställdes efter morgonens mål kl. 06. Detta är ett begränsat urval med två tidsverifierade nyheter, inte en heltäckande omvärldsrapport. I den avgränsade vetenskapssökningen kunde ingen ny artikel verifieras mot utgåvans tidskrav. Andra kandidater utelämnades när källåtkomsten inte höll för kontroll. Fördjupningarna är egna korta sammanfattningar.",
+  "editorialNote": "Utgåvan sammanställdes efter morgonens mål kl. 06 och innehåller bara en kontrollerad AI-nyhet. Andra kandidater utelämnades när källåtkomsten eller tidskontrollen inte höll. Ingen forskningsartikel kvalificerade sig i den avgränsade vetenskapssökningen. Detta är inte en heltäckande omvärldsrapport och betyder inte att andra nyheter saknas.",
   "stories": [
     {
-      "id": "binance-security-reserves-2026-10-30",
-      "category": "world",
-      "title": "Binance uppger att över 6,34 miljarder dollar reserverats efter intrång",
-      "summary": "Kryptobörsen Binance uppger att bolaget har reserverat egna tillgångar för att täcka förluster efter ett stort intrång, rapporterar Reuters.",
-      "whyItMatters": "Beskedet gör skillnaden mellan utlovat skydd och faktiskt återbetalda pengar viktig för bedömningen av följderna.",
+      "id": "samsung-altman-leadership-ai-2026-10-31",
+      "category": "ai",
+      "title": "Samsung samlar ledningen kring AI med Sam Altman",
+      "summary": "Sam Altman deltog i ett seminarium med omkring 50 Samsungchefer om AI i verksamheten, rapporterar Yonhap med hänvisning till Samsung.",
+      "whyItMatters": "Nyheten handlar om hur företagsledningar förbereder organisationen för AI, snarare än om en ny modell eller ett nytt avtal.",
       "details": [
-        "Enligt Reuters säger Binance att drygt 6,34 miljarder dollar har reserverats. I beloppet ingår 5 miljarder dollar i berörda kryptotillgångar.",
-        "Bolaget uppger också att tillgångar på 3 miljarder dollar har frysts med hjälp av andra aktörer. Det är inte samma sak som att pengarna har återförts till kunder.",
-        "Reuters återger ett löfte om offentlig kontroll av kundmedlen genom bolagets redovisning av reserver. Den lästa rapporten visar inte att kontrollen eller ersättningen redan är slutförd."
+        "Seminariet hölls den 31 oktober i Yongin, söder om Seoul. Deltagarna kom från bland annat Samsungs teknik-, finans- och bioverksamheter.",
+        "Enligt Samsung diskuterades hur AI kan förändra företags beslut och arbetssätt samt vilka förmågor ledare behöver.",
+        "Rapporten beskriver ett ledningsseminarium. Den redovisar inga uppmätta produktivitetsvinster och fastställer inte något nytt kommersiellt avtal."
       ],
-      "publishedAt": "2026-10-30T14:03:39Z",
-      "eventDate": "2026-10-30",
-      "verifiedAt": "2026-10-31T08:19:25Z",
+      "publishedAt": "2026-10-31T08:34:26Z",
+      "eventDate": "2026-10-31",
+      "verifiedAt": "2026-11-01T07:53:17Z",
       "confidence": "medium",
       "kind": "news",
       "preprint": false,
       "sources": [
         {
-          "name": "Reuters via CNA",
-          "url": "https://www.channelnewsasia.com/business/binance-sets-aside-over-634-billion-cover-losses-attack-6507436",
-          "publishedAt": "2026-10-30T14:03:39Z"
+          "name": "Yonhap News Agency",
+          "url": "https://en.yna.co.kr/view/AEN20261031002651315",
+          "publishedAt": "2026-10-31T08:34:26Z"
         }
       ],
       "caveats": [
-        "Beloppen är bolagets uppgifter återgivna av Reuters, inte en oberoende revision av reserverna.",
-        "Tiden avser CNA:s publicering av Reutersrapporten. Hela den korta rapporttexten har lästs."
-      ]
-    },
-    {
-      "id": "claude-carahsoft-onegov-2026-10-30",
-      "category": "ai",
-      "title": "Claude får bredare inköpsväg till amerikanska myndigheter",
-      "summary": "Anthropic och Carahsoft meddelar att fler amerikanska myndigheter kan köpa Claude genom GSA:s OneGov-avtal.",
-      "whyItMatters": "Det är ett steg i hur AI når offentlig förvaltning genom upphandling, snarare än ett besked om en ny modell.",
-      "details": [
-        "Enligt Carahsoft omfattar inköpsvägen genom GSA:s Multiple Award Schedule även delstatliga, lokala, tribala och territoriella myndigheter.",
-        "Erbjudandet omfattar Claude for Government, Claude Enterprise och Claude API. API är gränssnittet för att koppla modellen till andra program.",
-        "Beskedet gäller tillgång genom en amerikansk upphandlingskanal. Det visar inte att användningen ger bättre verksamhetsresultat, och säger inget om motsvarande villkor i Sverige."
-      ],
-      "publishedAt": "2026-10-30T19:30:00Z",
-      "eventDate": "2026-10-30",
-      "verifiedAt": "2026-10-31T08:16:51Z",
-      "confidence": "high",
-      "kind": "news",
-      "preprint": false,
-      "sources": [
-        {
-          "name": "Carahsofts pressmeddelande via GlobeNewswire",
-          "url": "https://www.globenewswire.com/news-release/2026/10/30/3392613/0/en/anthropic-and-carahsoft-expand-access-to-claude-across-u-s-government-through-gsa-onegov-agreement.html",
-          "publishedAt": "2026-10-30T19:30:00Z"
-        }
-      ],
-      "caveats": [
-        "Källan är leverantörens eget pressmeddelande, inte ett oberoende funktionstest.",
-        "Hela den relevanta pressmeddelandetexten har lästs. Publiceringstiden 15.30 amerikansk östkusttid motsvarar 19.30 UTC denna dag."
+        "Hela Yonhaprapporten har lästs. Uppgifterna om seminariet tillskrivs Samsung; det är inte ett oberoende test av AI:s effekter.",
+        "Originalsidans tidsmetadata anger 17.34.26 med UTC+09.00, vilket motsvarar 08.34.26 UTC."
       ]
     }
   ]
